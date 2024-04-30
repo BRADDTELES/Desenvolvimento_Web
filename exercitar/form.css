@@ -1,0 +1,27 @@
+body{
+    background-color: pink;
+    width: 100%;
+    height: auto;
+}
+
+h1{
+    text-align: center;
+}
+.descricao{
+    border: 1px solid;
+    padding: 2px;
+    margin: 2px;
+}
+.formulario{
+    border: 1px solid;
+    padding: 2px;
+    margin: 2px;
+}
+.btn-submit{
+    border-radius: 8px;
+    border-color: yellow;
+    background-color: yellow;
+    color: red;
+    width: 100px;
+    height: 22px;
+}

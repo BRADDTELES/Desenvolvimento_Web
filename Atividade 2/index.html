@@ -1,0 +1,101 @@
+<html lang="pt-BR">
+<head>
+  <!--Título ou cabeçalho da Página -->
+  <title>Página de Cadastro</title>
+  <!--Link para acessar o arquivo CSS formatado-->
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<!--Corpo do site-->
+<body>
+  <main class="flex">
+    <!--Descrição do conteúdo-->
+      <div class="descricao">
+      <h4>Cadastre-se e faça parte da nossa comunidade de cursos!</h4>
+            <p>Preencha o formulário abaixo para se cadastrar em nosso site e ter acesso a:
+                <ul>
+                    <li>Conteúdo exclusivo: artigos, videos, e-books e muito mais!</li>
+                    <li>Ofertas e promoções: descontos especiais em produtos e serviços.</li>
+                    <li>Comunidade vibrante: participe de fóruns, grupos de discussão e eventos.</li>
+                </ul>
+                É rápido e fácil!
+             </p>
+             <img class="imagem" src="image/índice.jpeg" alt="Homem de palitó olhando para telões">
+    </div>  
+    <!--Formulário de cadastro-->
+    <form class="formulario">
+    <h2 class="titulo1">Preencha os campos</h2>
+    <div>
+      <p>
+        <label>Nome: <small><small >(Campo Obrigatório)</small></small><br><input id="name": type="text" placeholder="Informe o seu nome completo" required></label>
+        </p>
+        
+        <p>
+        <label>E-mail: <small><small >(Campo Obrigatório)</small></small><br><input id="email": type="email" placeholder="example@dominio.com" required></label>
+        </p>
+        
+        <p>
+          <label>Senha: <small><small >(Campo Obrigatório)</small></small><br><input id="senha": type="password" placeholder="Insira a sua senha" required></label>
+        </p>
+        
+        <p>
+        <label>Telefone: <small><small >(Campo Obrigatório)</small></small><br><input id="telefone": type="tel" required></label>
+        </p>
+        
+        <p>
+          <label>Cidade: <small><small >(Campo Obrigatório)</small></small><br><input id="cidade": type="text" placeholder="Informe a cidade" required></label>
+        </p>
+
+        <p>
+          Estado: <small><small >(Campo Obrigatório)</small></small><br>
+          <select name="select">
+            <option value="Selecione...">Selecione...</option>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+          </select>
+        </p>
+        
+        <p>
+          <h4>Termo de Uso e Política de Privacidade:</h4>
+          Termos de Uso e a Política de Privacidade: <a href="politica-de-privacidade.html">Saiba mais.</a>
+          <br>
+          <a href="politica-de-privacidade.html">Política de Privacidade</a> deste site.
+          <br>
+          <label><input name="icheck" type="checkbox" value="1" required> Li e concordo com os Termos de Uso.</label>
+        </p>
+        <p>
+          <label><input id="send": type="submit" value="Enviar"></label>
+        </p>
+    </form>
+    </div>
+  </main>
+</body>
+<!--Rodapé do site-->
+<footer>
+  © Todos os direitos reservados.
+</footer>
+</html>

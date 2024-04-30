@@ -1,0 +1,21 @@
+div {
+    color: #fff;
+}
+
+#model {
+    background-color: blue;
+    padding: 20px;
+    margin: 100px;
+    border: blueviolet solid medium;
+}
+
+.box2 {
+    /* Ctrl+ ; ativa o comentário */
+    background-color: yellow;
+    color: black;
+    padding-top: 50px;
+    padding-right: 50px;
+    border: ridge red;
+    border-radius: 50%;
+    height: 10px;
+}

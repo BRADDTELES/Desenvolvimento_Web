@@ -1,0 +1,38 @@
+:root {
+    background-color: whitesmoke;
+}
+section{
+    border-color: aqua;
+    border: 1px solid blue;
+    padding: 3px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.descrisao{
+    display: flex;
+    background-color: aquamarine;
+    border: 1px solid greenyellow;
+    margin: 3px;
+}
+.formulario{
+    background-color: aquamarine;
+    border: 1px solid red;
+    margin: 3px;
+}
+
+/* 
+- Adiciona uma cor verde ao fundo
+- Adiciona uma cor branca ao texto
+- Adiciona uma altura ao meu botão
+- Adiciona uma largua ao meu botão
+- Adiciona uma cor a borda
+- Adiciona um arrendodamento ao meu botão
+ */
+.btn-submit {
+    color: white;
+    background-color: greenyellow;
+    height: 25px;
+    width: 150px;
+    border-color: greenyellow;
+    border-radius: 8px;
+}

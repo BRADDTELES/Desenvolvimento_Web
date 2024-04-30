@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section id="section">
+        <form class="formulario1">
+            <h1>Preencha os Campos</h1>
+            <div id="name">
+                <p>
+                    <label>Nome: <input id="nameInput": type="text" placeholder="Informe o seu nome completo" required></label>
+                </p>
+            </div>
+        
+            <div id="email">
+                <p>
+                    <label>E-mail: <input id="email": type="email" placeholder="example@dominio.com" required></label>
+                </p>
+            </div>
+            <div id="senha">
+                <p>
+                    <label>Senha: <input id="senha": type="password" placeholder="Insira a sua senha" required></label>
+                </p>
+            </div>
+            <div id="telefone">
+                <p>
+                    <label>Telefone: <input id="telefone": type="tel" required></label>
+                </p>
+            </div>
+            <div id="cidade">
+                <p>
+                    <label>Cidade: <input id="cidade": type="text" placeholder="Informe a cidade" required></label>
+                </p>
+            </div>
+            <div id="Estado">
+                <p>
+                    Estado: <small>(Campo Obrigatório)</small><br>
+                    <select name="select">
+                      <option value="Selecione...">Selecione...</option>
+                      <option value="AC">Acre</option>
+                      <option value="AL">Alagoas</option>
+                      <option value="AP">Amapá</option>
+                      <option value="AM">Amazonas</option>
+                      <option value="BA">Bahia</option>
+                      <option value="CE">Ceará</option>
+                      <option value="DF">Distrito Federal</option>
+                      <option value="ES">Espírito Santo</option>
+                      <option value="GO">Goiás</option>
+                      <option value="MA">Maranhão</option>
+                      <option value="MT">Mato Grosso</option>
+                      <option value="MS">Mato Grosso do Sul</option>
+                      <option value="MG">Minas Gerais</option>
+                      <option value="PA">Pará</option>
+                      <option value="PB">Paraíba</option>
+                      <option value="PR">Paraná</option>
+                      <option value="PE">Pernambuco</option>
+                      <option value="PI">Piauí</option>
+                      <option value="RJ">Rio de Janeiro</option>
+                      <option value="RN">Rio Grande do Norte</option>
+                      <option value="RS">Rio Grande do Sul</option>
+                      <option value="RO">Rondônia</option>
+                      <option value="RR">Roraima</option>
+                      <option value="SC">Santa Catarina</option>
+                      <option value="SP">São Paulo</option>
+                      <option value="SE">Sergipe</option>
+                      <option value="TO">Tocantins</option>
+                    </select>
+                  </p>
+            </div>
+            <div id="enviar">
+                <p>
+                    <label><input id="finalizar": type="submit" value="Enviar"></label>
+                </p>
+            </div>
+        </form>
+    </section>
+</body>
+</html>

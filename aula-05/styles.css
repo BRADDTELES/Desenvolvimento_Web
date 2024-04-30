@@ -1,0 +1,30 @@
+/* Box Model = É a estrutura dos nossos elementos 
+
+    margin --> Define a margem dos nossos elementos
+    padding: --> Define a distância interna dos nossos elementos
+    border: --> Define a borda dos nossos elementos
+    width: --> Define a largura dos nossos elementos
+    height: --> Define a altura dos nossos elementos
+	
+	Porque todo elemento HTML é uma caixa, ou possui um conceito de caixa.
+*/
+
+/* Esteja alinhado ao centro e com a cor do texto azul */
+h1 {
+    text-align: center; 
+    color: blue;
+}
+
+/* Adiciona uma cor de fundo ao texto e justifica-o ao centro */
+p {
+    background-color: bisque;  
+    text-align: justify; 
+}
+
+.lista {
+    margin: 10px; 
+    padding: 5px;
+    border: 1px;
+    width: 100%;
+    height: auto;
+}

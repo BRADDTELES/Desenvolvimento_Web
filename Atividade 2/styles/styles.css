@@ -1,0 +1,50 @@
+/*Estilização do site em CSS*/
+body{
+  background-color: aquamarine;
+  margin: 0px;
+}
+main{
+  background-color: plum;
+  margin: 1px 1px 1px 2px;
+  padding: 4px;
+  height: 800px;
+  width: 95%;
+  
+  max-width: 420px;
+}
+.flex{
+  display: flex;
+  flex: 1;
+}
+.descricao{
+  background-color: paleturquoise;
+  border: solid;
+  margin: 2px 2px 2px 0px;
+  padding: 0px 2px 0px 2px;
+}
+.imagem{
+  text-align: center;
+  height: 80px;
+  width: 150px;
+}
+.formulario{
+  background-color: palegreen;
+  border: solid;
+  margin: 2px 2px 2px 2px;
+  padding: auto;
+}
+.titulo1{
+  text-align: center;
+  padding: 0px 3px 0px 3px;;
+}
+form {
+  padding: 5px;
+}
+#send{
+  text-align: center;
+  margin: 1px 35% 1px 35%;
+}
+footer{
+  padding: 5px;
+}
+

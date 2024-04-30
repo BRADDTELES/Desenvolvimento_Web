@@ -1,0 +1,37 @@
+.formulario1 {
+    background-color: aquamarine;
+    padding: 50px;
+}
+
+#nameInput {
+    padding-right: 60px;
+    border: solid 2px ;
+    
+}
+#name {
+    margin: 10px;
+}
+#email {
+    
+}
+
+#senha {
+    padding-left: 300px;
+    margin-bottom: 20px;
+}
+
+#telefone {
+
+}
+
+#cidade {
+
+}
+
+#Estado {
+
+}
+
+#enviar {
+    padding-left: 400px;
+}
